@@ -1,33 +1,25 @@
-[metadata]
-name = gradio_sidebar
-version = attr: gradio_sidebar.__version__
-description = A customizable sidebar component for Gradio interfaces.
-long_description = file: docs/README.md
-long_description_content_type = text/markdown
-author = Broadfield Dev
-author_email = dev@broadfield.com
-maintainer = Broadfield Dev
-maintainer_email = dev@broadfield.com
-license = MIT
-classifiers = 
-    Development Status :: 3 - Alpha
-    Intended Audience :: Developers
-    License :: OSI Approved :: MIT License
-    Programming Language :: Python :: 3
-    Programming Language :: Python :: 3.7
-    Programming Language :: Python :: 3.8
-    Programming Language :: Python :: 3.9
-    Programming Language :: Python :: 3.10
-    Programming Language :: Python :: 3.11
-    Operating System :: OS Independent
-    Topic :: Software Development :: Libraries :: Python Modules
-    Typing :: Typed
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
 
-[options]
-python_requires = >=3.7
-install_requires = 
-    gradio>=3.0
+[project]
+name = "gradio_sidebar"
+version = "0.1.0"
+description = "A package providing a sidebar for Gradio interfaces."
+authors = ["Broadfield-dev"]  # Update with actual author
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/broadfield-dev/gradio_sidebar"
+repository = "https://github.com/broadfield-dev/gradio_sidebar"
+keywords = ["gradio", "ui", "sidebar"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
 
-[options.packages.find]
-where = .
-include = gradio_sidebar
+[project.dependencies]
+python = "^3.8"
+gradio = "*"  # Adjust if a specific version is noted in requirements.txt
+# Add additional dependencies based on requirements.txt, for example:
+# requests = "^2.25.1"
