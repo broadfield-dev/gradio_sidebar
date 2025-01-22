@@ -15,7 +15,7 @@ Import and call the hooks from the 'gs' alias
 
 ```python
 import gradio as gr
-import gradio_sidebar as gs
+from gradio_sidebar import gs
 
 #set the head and css to gs.head and gs.css
 with gr.Blocks( head = gs.head, css=gs.css ) as app:
