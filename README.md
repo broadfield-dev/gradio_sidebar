@@ -1,5 +1,5 @@
 # gradio_sidebar
-Python module to add 3 optional sidebars (top, left, right) that will contain gradio elements.
+Python module to add up to 3 retractable sidebars (top, left, right) that will contain gradio elements.
 
 ![Banner](gradio_sidebar.png)
 
