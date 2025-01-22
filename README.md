@@ -23,7 +23,7 @@ with gr.Blocks( head = gs.head, css=gs.css ) as app:
     #gr.HTML(gs.topbar)  #OFF
 ```
 ## 2.2 Run
-Add the appropriate 'elem_id=' tag a Gradio Group and it will become the sidebar containing the items within the Group
+Add the appropriate 'elem_id=' tag to a Gradio Group and it will become the sidebar containing the items within the Group
 
 ```python
   with gr.Group(elem_id="gs_top_control_panel"):
