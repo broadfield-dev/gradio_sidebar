@@ -1,5 +1,5 @@
 import gradio as gr
-import gradio_sidebar as gs
+from gradio_sidebar import gs
 
 with gr.Blocks(head=gs.head,css=gs.css) as app:
     gr.HTML(gs.topbar)
