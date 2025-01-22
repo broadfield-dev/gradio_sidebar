@@ -5,7 +5,7 @@ Python module to add 3 optional sidebars (top, left, right) that will contain gr
 
 ## 1. Install
 ```python
-git clone https://github.com/broadfield-dev/gradio_sidebar.git
+pip install git+https://www.github.com/broadfield-dev/gradio_sidebar
 ```
 
 ## 2.1 Run
@@ -13,7 +13,7 @@ Import and call the hooks from the 'gs' alias
 
 ```python
 import gradio as gr
-import gradio_sidebar.gradio_sidebar as gs
+import gradio_sidebar as gs
 
 #set the head and css to gs.head and gs.css
 with gr.Blocks( head = gs.head, css=gs.css ) as app:
